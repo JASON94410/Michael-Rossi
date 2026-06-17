@@ -239,8 +239,17 @@
     }
 
     .bio-photo-wrap {
-      position: relative;
-    }
+  position: relative;
+  width: 100%;
+}
+
+.bio-photo-wrap img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+}
 
     .bio-photo-placeholder {
       width: 100%;
